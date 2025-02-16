@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\ControleReservaDomain.csproj",
-      "projectName": "ControleReservaDomain",
-      "projectPath": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\ControleReservaDomain.csproj",
+      "projectUniqueName": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\ControleReserva.Domain.csproj",
+      "projectName": "ControleReserva.Domain",
+      "projectPath": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\ControleReserva.Domain.csproj",
       "packagesPath": "C:\\Users\\manoe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\obj\\",
       "projectStyle": "PackageReference",

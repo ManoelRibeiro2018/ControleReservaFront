@@ -6,4 +6,9 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interface\NovaPasta\" />
+    <Folder Include="Interface\Reserva\" />
+  </ItemGroup>
+
 </Project>

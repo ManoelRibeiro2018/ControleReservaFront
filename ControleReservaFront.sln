@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleReserva", "ControleReservaFront\ControleReserva.csproj", "{7527F21E-8D2C-4BF7-B05C-DA23AF8E8F1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleReserva", "ControleReservaFront\ControleReserva.csproj", "{7527F21E-8D2C-4BF7-B05C-DA23AF8E8F1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleReservaDomain", "ControleReservaDomain\ControleReservaDomain.csproj", "{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleReserva.Domain", "ControleReservaDomain\ControleReserva.Domain.csproj", "{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleReserve.Infraestructure", "ControleReserve.Infraestructure\ControleReserve.Infraestructure.csproj", "{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

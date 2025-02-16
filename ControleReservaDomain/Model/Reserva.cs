@@ -6,7 +6,7 @@ namespace ControleReserva.Domain.Model
     public class Reserva
     {
         public int Id { get; set; }
-        public SalaInputModel Sala { get; set; }
+        public int SalaId { get; set; }
         public UsuarioInputModel Usuario { get; set; }
         public DateTime Data { get; set; }
         public Status Status { get; set; }

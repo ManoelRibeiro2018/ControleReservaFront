@@ -1,0 +1,12 @@
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\bin\Debug\net8.0\ControleReservaDomain.deps.json
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\bin\Debug\net8.0\ControleReservaDomain.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\bin\Debug\net8.0\ControleReservaDomain.pdb
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.AssemblyInfoInputs.cache
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.AssemblyInfo.cs
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.csproj.CoreCompileInputs.cache
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.sourcelink.json
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\refint\ControleReservaDomain.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ControleReservaDomain.pdb
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaDomain\obj\Debug\net8.0\ref\ControleReservaDomain.dll

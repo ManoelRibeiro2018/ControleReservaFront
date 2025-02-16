@@ -1,11 +1,13 @@
-﻿namespace ControleReserva.Domain.Interface
+﻿using ControleReserva.Domain.DTOs;
+
+namespace ControleReserva.Domain.Interface
 {
     public interface IGeneric<T> where T : class
     {
-        Task Create(T  entity);
-        Task Update(T entity, int id);
-        Task Delete(int id);
-        Task<T> Get(int id);
-        Task<List<T>> GetAll();
+        Task<Response> Create(T  entity);
+        Task<Response> Update(T entity, int id);
+        Task<Response> Delete(int id);
+        Task<Response> Get(int id);
+        Task<List<Response>> GetAll();
     }
 }

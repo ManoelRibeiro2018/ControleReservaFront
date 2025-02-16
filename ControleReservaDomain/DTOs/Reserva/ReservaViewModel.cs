@@ -1,9 +1,11 @@
-﻿using ControleReservaDomain.Enum;
+﻿using ControleReservaDomain.DTOs.InputModel;
+using ControleReservaDomain.Enum;
 
-namespace ControleReservaDomain.DTOs.InputModel
+namespace ControleReserva.Domain.DTOs.Reserva
 {
-    public class ResevaInputModel
+    public class ReservaViewModel
     {
+        public int Id { get; set; }
         public SalaInputModel Sala { get; set; }
         public UsuarioInputModel Usuario { get; set; }
         public DateTime Data { get; set; }

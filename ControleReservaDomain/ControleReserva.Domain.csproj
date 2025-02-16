@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\NovaPasta\" />
-    <Folder Include="Interface\Reserva\" />
+    <Folder Include="DTOs\NovaPasta\" />
   </ItemGroup>
 
 </Project>

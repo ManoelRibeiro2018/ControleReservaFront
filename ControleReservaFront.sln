@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleReserva", "Controle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleReserva.Domain", "ControleReservaDomain\ControleReserva.Domain.csproj", "{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleReserve.Infraestructure", "ControleReserve.Infraestructure\ControleReserve.Infraestructure.csproj", "{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleReserve.Infraestructure", "ControleReserve.Infraestructure\ControleReserve.Infraestructure.csproj", "{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleReserva.Application", "ControleReserva.Application\ControleReserva.Application.csproj", "{0F922080-35DC-445B-A60A-7087112D8885}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F922080-35DC-445B-A60A-7087112D8885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F922080-35DC-445B-A60A-7087112D8885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F922080-35DC-445B-A60A-7087112D8885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F922080-35DC-445B-A60A-7087112D8885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

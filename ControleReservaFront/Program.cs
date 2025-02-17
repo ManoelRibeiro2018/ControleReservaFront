@@ -1,7 +1,15 @@
+using ControleReserva.Application.Service;
+using ControleReserva.Domain.Interface.HttpClient;
+using ControleReserva.Domain.Interface.Service;
+using ControleReserve.Infraestructure.ClientHttp;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IReservaService, ReservaService>();
+builder.Services.AddScoped<IReservaHttpClient, ReservaHttpClient>();
 
 var app = builder.Build();
 
@@ -22,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Reserva}/{action=Index}/{id?}");
 
 app.Run();

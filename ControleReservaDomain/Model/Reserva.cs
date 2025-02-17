@@ -12,7 +12,7 @@ namespace ControleReserva.Domain.Model
         public DateTime Data { get; set; }
         public Status Status { get; set; }
 
-        public static Reserva Map(ResevaInputModel entity) => new()
+        public static Reserva Map(ReservaInputModel entity) => new()
         {
             Id = entity.Id,
             SalaId = entity.SalaId,

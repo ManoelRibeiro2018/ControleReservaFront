@@ -4,8 +4,13 @@ using ControleReservaDomain.Enum;
 
 namespace ControleReserva.Domain.Interface.Service
 {
-    public interface IReservaService : IGeneric<ResevaInputModel>
+    public interface IReservaService
     {
-        Task<Response> ChangeStatus(int id, Status status);
+        Task ChangeStatus(int id, Status status);
+        Task Create(ReservaInputModel entity);
+        Task Update(ReservaInputModel entity);
+        Task Delete(int id);
+        Task<ReservaViewModel> Get(int id);
+        Task<List<ReservaViewModel>> GetAll();
     }
 }

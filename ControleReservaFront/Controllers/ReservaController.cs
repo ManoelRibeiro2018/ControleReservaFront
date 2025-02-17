@@ -1,14 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ControleReserva.Domain.Interface.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleReserva.Controllers
 {
     public class ReservaController : Controller
     {
-        // GET: ReservaController
-        public ActionResult Index()
+        private readonly IReservaService _service;
+
+        public ReservaController(IReservaService service)
         {
-            return View();
+            _service = service;
+        }
+
+
+        // GET: ReservaController
+        public async Task<ActionResult> Index()
+        {
+            var result = await _service.GetAll();
+            return View(result);
         }
 
         // GET: ReservaController/Details/5

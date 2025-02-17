@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7527F21E-8D2C-4BF7-B05C-DA23AF8E8F1B}|ControleReservaFront\\ControleReserva.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservafront\\views\\reserva\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7527F21E-8D2C-4BF7-B05C-DA23AF8E8F1B}|ControleReservaFront\\ControleReserva.csproj|solutionrelative:controlereservafront\\views\\reserva\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F922080-35DC-445B-A60A-7087112D8885}|ControleReserva.Application\\ControleReserva.Application.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereserva.application\\service\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F922080-35DC-445B-A60A-7087112D8885}|ControleReserva.Application\\ControleReserva.Application.csproj|solutionrelative:controlereserva.application\\service\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\reserva\\reservainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\reserva\\reservainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}|ControleReserve.Infraestructure\\ControleReserve.Infraestructure.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereserve.infraestructure\\clienthttp\\reservahttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB9E2DF-1354-4CBF-A340-9CDF99D649EE}|ControleReserve.Infraestructure\\ControleReserve.Infraestructure.csproj|solutionrelative:controlereserve.infraestructure\\clienthttp\\reservahttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\sala\\salaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\sala\\salaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\sala\\salainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\sala\\salainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\inputmodel\\usuarioinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\inputmodel\\usuarioinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\model\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\model\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\reserva\\resevainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\reserva\\resevainputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\reserva\\reservaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\reserva\\reservaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\model\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\model\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7527F21E-8D2C-4BF7-B05C-DA23AF8E8F1B}|ControleReservaFront\\ControleReserva.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservafront\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7527F21E-8D2C-4BF7-B05C-DA23AF8E8F1B}|ControleReservaFront\\ControleReserva.csproj|solutionrelative:controlereservafront\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|c:\\users\\manoe\\source\\repos\\controlereservafront\\controlereservadomain\\dtos\\sala\\salaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6A7EC6-4E22-4835-ACD6-ED44B893AB6C}|ControleReservaDomain\\ControleReserva.Domain.csproj|solutionrelative:controlereservadomain\\dtos\\sala\\salaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaFront\\Views\\Reserva\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleReservaFront\\Views\\Reserva\\Index.cshtml",
+              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaFront\\Views\\Reserva\\Index.cshtml",
+              "RelativeToolTip": "ControleReservaFront\\Views\\Reserva\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T01:44:44.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservaHttpClient.cs",
+              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
+              "RelativeDocumentMoniker": "ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
+              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
+              "RelativeToolTip": "ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAYwIsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T01:09:06.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservaInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Reserva\\ReservaInputModel.cs",
+              "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\Reserva\\ReservaInputModel.cs",
+              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Reserva\\ReservaInputModel.cs",
+              "RelativeToolTip": "ControleReservaDomain\\DTOs\\Reserva\\ReservaInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T00:56:10.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReserva.Application\\Service\\ReservaService.cs",
+              "RelativeDocumentMoniker": "ControleReserva.Application\\Service\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReserva.Application\\Service\\ReservaService.cs",
+              "RelativeToolTip": "ControleReserva.Application\\Service\\ReservaService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:51:32.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SalaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Sala\\SalaViewModel.cs",
               "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\Sala\\SalaViewModel.cs",
               "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Sala\\SalaViewModel.cs",
               "RelativeToolTip": "ControleReservaDomain\\DTOs\\Sala\\SalaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T21:31:04.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UsuarioInputModel.cs",
               "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\InputModel\\UsuarioInputModel.cs",
               "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\InputModel\\UsuarioInputModel.cs",
@@ -80,106 +120,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalaInputModel.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Sala\\SalaInputModel.cs",
-              "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\Sala\\SalaInputModel.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Sala\\SalaInputModel.cs",
-              "RelativeToolTip": "ControleReservaDomain\\DTOs\\Sala\\SalaInputModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:27:25.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Sala.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\Model\\Sala.cs",
-              "RelativeDocumentMoniker": "ControleReservaDomain\\Model\\Sala.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\Model\\Sala.cs",
-              "RelativeToolTip": "ControleReservaDomain\\Model\\Sala.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:24:57.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\Model\\Reserva.cs",
-              "RelativeDocumentMoniker": "ControleReservaDomain\\Model\\Reserva.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\Model\\Reserva.cs",
-              "RelativeToolTip": "ControleReservaDomain\\Model\\Reserva.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:24:50.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Response.cs",
               "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\Response.cs",
               "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Response.cs",
               "RelativeToolTip": "ControleReservaDomain\\DTOs\\Response.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T20:47:57.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReservaController.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaFront\\Controllers\\ReservaController.cs",
-              "RelativeDocumentMoniker": "ControleReservaFront\\Controllers\\ReservaController.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaFront\\Controllers\\ReservaController.cs",
-              "RelativeToolTip": "ControleReservaFront\\Controllers\\ReservaController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T03:45:59.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Reserva\\ReservaViewModel.cs",
-              "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\Reserva\\ReservaViewModel.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Reserva\\ReservaViewModel.cs",
-              "RelativeToolTip": "ControleReservaDomain\\DTOs\\Reserva\\ReservaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T03:44:55.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResevaInputModel.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Reserva\\ResevaInputModel.cs",
-              "RelativeDocumentMoniker": "ControleReservaDomain\\DTOs\\Reserva\\ResevaInputModel.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReservaDomain\\DTOs\\Reserva\\ResevaInputModel.cs",
-              "RelativeToolTip": "ControleReservaDomain\\DTOs\\Reserva\\ResevaInputModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T03:41:24.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservaHttpClient.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
-              "RelativeDocumentMoniker": "ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ControleReservaFront\\ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
-              "RelativeToolTip": "ControleReserve.Infraestructure\\ClientHttp\\ReservaHttpClient.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAAAG8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T02:59:35.624Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ControleReserva.Application\ControleReserva.Application.csproj" />
     <ProjectReference Include="..\ControleReservaDomain\ControleReserva.Domain.csproj" />
+    <ProjectReference Include="..\ControleReserve.Infraestructure\ControleReserve.Infraestructure.csproj" />
   </ItemGroup>
 
 </Project>

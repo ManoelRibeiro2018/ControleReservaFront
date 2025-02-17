@@ -15,9 +15,9 @@ namespace ControleReserve.Infraestructure.ClientHttp
         private readonly ILogger<ReservaHttpClient> _logger;
         private readonly HttpClient _httpClient;
         private readonly Fixture _fixture;
-        public ReservaHttpClient(ILogger<ReservaHttpClient> logger, Fixture fixture)
+        public ReservaHttpClient(ILogger<ReservaHttpClient> logger)
         {
-            _fixture = fixture;
+            _fixture = new Fixture();
             _logger = logger;
             _httpClient = new()
             {
@@ -118,15 +118,11 @@ namespace ControleReserve.Infraestructure.ClientHttp
         {
             try
             {
-                var result = _fixture.Create<Response>();
-                var content = _fixture.CreateMany<SalaViewModel>().ToList();
-                result.Result = content;
-                return result;
-                //var responseJson = await _httpClient.GetAsync("GetAll");
+                var responseJson = await _httpClient.GetAsync("GetAll");
 
-                //string responseBody = await responseJson.Content.ReadAsStringAsync();
-                //var response = JsonSerializer.Deserialize<Response>(responseBody);
-                //return response;
+                string responseBody = await responseJson.Content.ReadAsStringAsync();
+                var response = JsonSerializer.Deserialize<Response>(responseBody);
+                return response;
             }
             catch (Exception ex)
             {

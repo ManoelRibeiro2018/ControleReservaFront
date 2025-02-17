@@ -3,7 +3,7 @@ using ControleReservaDomain.Enum;
 
 namespace ControleReserva.Domain.DTOs.Reserva
 {
-    public class ResevaInputModel
+    public class ReservaInputModel
     {
         public int Id { get; set; }
         public int SalaId { get; set; }

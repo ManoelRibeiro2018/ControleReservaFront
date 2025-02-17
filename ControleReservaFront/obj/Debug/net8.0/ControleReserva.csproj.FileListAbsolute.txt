@@ -229,3 +229,11 @@ C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\
 C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\ControleReserva.Domain.pdb
 C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\obj\Debug\net8.0\ControleReserva.csproj.AssemblyReference.cache
 C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\obj\Debug\net8.0\Controle.834F14F6.Up2Date
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\AutoFixture.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\Fare.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\ControleReserva.Application.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\ControleReserve.Infraestructure.dll
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\ControleReserva.Application.pdb
+C:\Users\manoe\source\repos\ControleReservaFront\ControleReservaFront\bin\Debug\net8.0\ControleReserve.Infraestructure.pdb

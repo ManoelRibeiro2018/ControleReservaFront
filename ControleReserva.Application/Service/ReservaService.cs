@@ -5,6 +5,7 @@ using ControleReserva.Domain.Interface.Service;
 using ControleReserva.Domain.Model;
 using ControleReservaDomain.Enum;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace ControleReserva.Application.Service
 {
@@ -20,43 +21,45 @@ namespace ControleReserva.Application.Service
             _logger = logger;
         }
 
-        public async Task<Response> ChangeStatus(int id, Status status)
+        public async Task ChangeStatus(int id, Status status)
         {
             _logger.LogInformation("Atualizando status da reserva {Id} para {Status}", id, status);
             var result = await _reservaHttpClient.ChangeStatus(id, status);
-            return result;
         }
 
-        public async Task<Response> Create(ResevaInputModel entity)
+        public async Task Create(ReservaInputModel entity)
         {
             _logger.LogInformation("Criando reserva");
             var reserva = Reserva.Map(entity);
             var result = await _reservaHttpClient.Create(reserva);
-            return result;
         }
 
-        public async Task<Response> Delete(int id)
+        public async Task Delete(int id)
         {
             _logger.LogInformation("Removendo reserva: {Id}", id);
             var result = await _reservaHttpClient.Delete(id);
-            return result;
         }
 
-        public async Task<Response> Get(int id)
+        public async Task<ReservaViewModel> Get(int id)
         {
-            return await _reservaHttpClient.Get(id);
+            var result = await _reservaHttpClient.Get(id);            
+            return (ReservaViewModel)result.Result;
         }
 
-        public async Task<Response> GetAll()
+        public async Task<List<ReservaViewModel>> GetAll()
         {
-            return await _reservaHttpClient.GetAll();
+            var result = await _reservaHttpClient.GetAll();
+            if (result.Success)
+            {
+                return JsonConvert.DeserializeObject<List<ReservaViewModel>>(JsonConvert.SerializeObject(result.Result));
+            }
+            return [];
         }
 
-        public async Task<Response> Update(ResevaInputModel entity)
+        public async Task Update(ReservaInputModel entity)
         {
             var reserva = Reserva.Map(entity);
             var result = await _reservaHttpClient.Update(reserva);
-            return result;
         }
     }
 }

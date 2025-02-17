@@ -6,6 +6,6 @@ namespace ControleReserva.Domain.Interface.Service
 {
     public interface IReservaService : IGeneric<ResevaInputModel>
     {
-        Task<Response> ChangeStatus(Status status);
+        Task<Response> ChangeStatus(int id, Status status);
     }
 }

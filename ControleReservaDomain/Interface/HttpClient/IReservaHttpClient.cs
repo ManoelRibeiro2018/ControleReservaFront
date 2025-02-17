@@ -6,6 +6,6 @@ namespace ControleReserva.Domain.Interface.HttpClient
 {
     public interface IReservaHttpClient : IGeneric<Reserva>
     {
-        Task<Response> ChangeStatus(Status status);
+        Task<Response> ChangeStatus(int id, Status status);
     }
 }

@@ -1,4 +1,6 @@
-﻿using ControleReserva.Domain.DTOs;
+﻿using AutoFixture;
+using ControleReserva.Domain.DTOs;
+using ControleReserva.Domain.DTOs.Sala;
 using ControleReserva.Domain.Interface.HttpClient;
 using ControleReserva.Domain.Model;
 using ControleReservaDomain.Enum;
@@ -12,19 +14,21 @@ namespace ControleReserve.Infraestructure.ClientHttp
     {
         private readonly ILogger<ReservaHttpClient> _logger;
         private readonly HttpClient _httpClient;
-        public ReservaHttpClient(ILogger<ReservaHttpClient> logger)
+        private readonly Fixture _fixture;
+        public ReservaHttpClient(ILogger<ReservaHttpClient> logger, Fixture fixture)
         {
+            _fixture = fixture;
             _logger = logger;
             _httpClient = new()
             {
                 BaseAddress = new Uri("http://controlereserva-api.azurewebsites.net/reserva/")
             };
         }
-        public async Task<Response> ChangeStatus(Status status)
+        public async Task<Response> ChangeStatus(int id, Status status)
         {
             try
             {
-                var obj = new { status };
+                var obj = new { status, id };
                 var jsonData = JsonSerializer.Serialize(obj);
                 var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                 var responseJson = await _httpClient.PostAsync("ChangeStatus", content);
@@ -61,7 +65,7 @@ namespace ControleReserve.Infraestructure.ClientHttp
             {
                 _logger.LogError("{ClasseName} - {MethodName} - {Message}",
                     nameof(ReservaHttpClient),
-                    nameof(ChangeStatus),
+                    nameof(Create),
                     ex.Message);
 
                 return Response.Fail("Erro ao atualizar status", false);
@@ -82,7 +86,7 @@ namespace ControleReserve.Infraestructure.ClientHttp
             {
                 _logger.LogError("{ClasseName} - {MethodName} - {Message}",
                     nameof(ReservaHttpClient),
-                    nameof(ChangeStatus),
+                    nameof(Delete),
                     ex.Message);
 
                 return Response.Fail("Erro ao atualizar status", false);
@@ -103,7 +107,7 @@ namespace ControleReserve.Infraestructure.ClientHttp
             {
                 _logger.LogError("{ClasseName} - {MethodName} - {Message}",
                     nameof(ReservaHttpClient),
-                    nameof(ChangeStatus),
+                    nameof(Get),
                     ex.Message);
 
                 return Response.Fail("Erro ao atualizar status", false);
@@ -114,11 +118,15 @@ namespace ControleReserve.Infraestructure.ClientHttp
         {
             try
             {
-                var responseJson = await _httpClient.GetAsync("GetAll");
+                var result = _fixture.Create<Response>();
+                var content = _fixture.CreateMany<SalaViewModel>().ToList();
+                result.Result = content;
+                return result;
+                //var responseJson = await _httpClient.GetAsync("GetAll");
 
-                string responseBody = await responseJson.Content.ReadAsStringAsync();
-                var response = JsonSerializer.Deserialize<Response>(responseBody);
-                return response;
+                //string responseBody = await responseJson.Content.ReadAsStringAsync();
+                //var response = JsonSerializer.Deserialize<Response>(responseBody);
+                //return response;
             }
             catch (Exception ex)
             {
@@ -147,7 +155,7 @@ namespace ControleReserve.Infraestructure.ClientHttp
             {
                 _logger.LogError("{ClasseName} - {MethodName} - {Message}",
                     nameof(ReservaHttpClient),
-                    nameof(ChangeStatus),
+                    nameof(Update),
                     ex.Message);
 
                 return Response.Fail("Erro ao atualizar status", false);

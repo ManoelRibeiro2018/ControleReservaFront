@@ -1,4 +1,4 @@
-﻿namespace ControleReservaDomain.DTOs.InputModel
+﻿namespace ControleReserva.Domain.DTOs.Sala
 {
     public class SalaInputModel
     {

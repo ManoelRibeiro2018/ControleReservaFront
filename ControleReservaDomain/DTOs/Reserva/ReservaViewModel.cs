@@ -1,4 +1,5 @@
-﻿using ControleReservaDomain.DTOs.InputModel;
+﻿using ControleReserva.Domain.DTOs.Sala;
+using ControleReservaDomain.DTOs.InputModel;
 using ControleReservaDomain.Enum;
 
 namespace ControleReserva.Domain.DTOs.Reserva
